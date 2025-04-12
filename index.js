@@ -1,5 +1,5 @@
-const express = require("express");
-const GET_ACTIONS = require("./constant.cjs");
+import express from "express";
+import GET_ACTIONS from "./constant.js";
 
 const app = express();
 
